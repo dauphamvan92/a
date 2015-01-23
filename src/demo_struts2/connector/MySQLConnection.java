@@ -13,7 +13,7 @@ public class MySQLConnection {
 			// Create a connection to sql server
 			// syntax of string connection: jdbc:<database type>://<IP address>:<port>/<database name> 
 			Connection conn = DriverManager.getConnection(
-				"jdbc:mysql://localhost:3306/demo_DB",
+				"jdbc:mysql://localhost:3306/nhanvien",
 				userName,
 				pass
 			);
